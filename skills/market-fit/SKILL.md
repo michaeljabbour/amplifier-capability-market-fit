@@ -66,3 +66,7 @@ Save the cards only where the user authorizes, such as a file beside their work.
 ## Keep it honest
 
 Never invent costs, customer quotes, research, or test results. Fictional examples must be labeled fictional. A fit card is a hypothesis until a real signal supports it. Once fit is found, polish belongs to a separate pass, for example with improve-taste-and-elegance; do not start polishing before the shape exists.
+
+## Optional session note
+
+Read [the local coaching guide](references/coaching-session.v1.md) only when the person asks for practice or optional session bookkeeping. Keep the existing five-pass coaching method and three-round default.
