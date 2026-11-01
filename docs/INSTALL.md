@@ -7,8 +7,8 @@ Bring one product, project or body of work and your best guess at its customer. 
 Use Git and Python 3.11 or later. These commands install the complete method into a skills-parent directory:
 
 ```sh
-git clone https://github.com/michaeljabbour/amplifier-skill-market-fit.git
-cd amplifier-skill-market-fit
+git clone https://github.com/michaeljabbour/amplifier-capability-market-fit.git
+cd amplifier-capability-market-fit
 python3 scripts/capability.py install --dest ~/.agents/skills
 ```
 
@@ -18,7 +18,7 @@ The installer refuses conflicting files. Keep your changes before deliberately r
 
 ## Without a checkout
 
-Download the complete ZIP from [the public site](https://michaeljabbour.github.io/amplifier-skill-market-fit/#use-skill), extract it and place the whole skill folder in your host’s skills directory. Keep all references, helpers and license files together. The single SKILL.md download is for reading; use the whole folder to install.
+Download the complete ZIP from [the public site](https://michaeljabbour.github.io/amplifier-capability-market-fit/#use-skill), extract it and place the whole skill folder in your host’s skills directory. Keep all references, helpers and license files together. The single SKILL.md download is for reading; use the whole folder to install.
 
 ## What to expect
 

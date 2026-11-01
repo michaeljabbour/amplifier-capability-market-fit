@@ -1,6 +1,6 @@
 # Market Fit
 
-[Open the guide and get the skill](https://michaeljabbour.github.io/amplifier-skill-market-fit/).
+[Open the guide and get the skill](https://michaeljabbour.github.io/amplifier-capability-market-fit/).
 
 A coaching skill that helps a person carve one clear, customer-named offer out of a large body of work, and grow their own judgment while doing it. It reads where the person starts, coaches through five bounded passes, stops on a fixed rule, and reports honestly on how both the work and the person moved. It does not hand anyone a finished positioning, and the AI does not become the judge of their product.
 
@@ -13,8 +13,8 @@ This project pairs the [`market-fit` skill](skills/market-fit/SKILL.md) and its 
 Bring one product, project or body of work and your best guess at its customer. You leave with a fit card for the offer and a separate growth card for your judgment.
 
 ```sh
-git clone https://github.com/michaeljabbour/amplifier-skill-market-fit.git
-cd amplifier-skill-market-fit
+git clone https://github.com/michaeljabbour/amplifier-capability-market-fit.git
+cd amplifier-capability-market-fit
 python3 scripts/capability.py install --dest ~/.agents/skills
 ```
 
@@ -31,7 +31,7 @@ If your tool supports reusable skills, copy the `skills/market-fit/` directory (
 This repository is also an Amplifier bundle (`market-fit`). Add its behavior to your current host:
 
 ```bash
-amplifier bundle add "git+https://github.com/michaeljabbour/amplifier-skill-market-fit@main#subdirectory=behaviors/market-fit.yaml" --app
+amplifier bundle add "git+https://github.com/michaeljabbour/amplifier-capability-market-fit@main#subdirectory=behaviors/market-fit.yaml" --app
 ```
 
 For a local checkout that stays in step with your edits, use `file:///<path-to-checkout>/behaviors/market-fit.yaml` instead. Remove with `amplifier bundle remove market-fit-behavior --app`. Start a new session, then:
@@ -61,7 +61,7 @@ A useful run ends with two cards. See [a worked example](docs/EXAMPLES.md), dips
 
 ## The film
 
-A 53-second film explains the idea: an AI coach that sharpens your pitch and you, round by round, until the work reaches the launch zone. It plays on the [site](https://michaeljabbour.github.io/amplifier-skill-market-fit/#film) and lives at `site/assets/market-fit-film.mp4` with English captions. The example in it is fictional.
+A 53-second film explains the idea: an AI coach that sharpens your pitch and you, round by round, until the work reaches the launch zone. It plays on the [site](https://michaeljabbour.github.io/amplifier-capability-market-fit/#film) and lives at `site/assets/market-fit-film.mp4` with English captions. The example in it is fictional.
 
 ## How it stops
 
@@ -112,7 +112,7 @@ MIT; see [LICENSE](LICENSE). The family theme snapshot keeps its own [MIT notice
 
 Turn the work into one clear offer, and learn to defend it.
 
-Read the [installation guide](docs/INSTALL.md) for the supported local path and [consolidation record](docs/CONSOLIDATION.md) for ownership and evidence limits. Canonical catalog name: **Market Fit**; repository: `amplifier-skill-market-fit`.
+Read the [installation guide](docs/INSTALL.md) for the supported local path and [consolidation record](docs/CONSOLIDATION.md) for ownership and evidence limits. Canonical catalog name: **Market Fit**; repository: `amplifier-capability-market-fit`.
 
 ## Repository migration
 
